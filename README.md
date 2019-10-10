@@ -1,7 +1,7 @@
 # mcdhtx.github.io
 min hjemmeside
 
-- [se min kage ;)]{migogminkage}
+- [se min kage ;)](migogminkage)
 
 dette er et afsnit
 med en mega sej tekst
