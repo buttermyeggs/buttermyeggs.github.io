@@ -1,0 +1,118 @@
+<DOCTYPE html>
+<html>
+<head>
+<title>Mig og min yndlings kage :)</title>
+
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+        body {font-family: Arial;}
+        
+        /* Style the tab */
+        .tab {
+          overflow: hidden;
+          border: 1px solid #ccc;
+          background-color: #f1f1f1;
+        }
+        
+        /* Style the buttons inside the tab */
+        .tab button {
+          background-color: inherit;
+          float: left;
+          border: none;
+          outline: none;
+          cursor: pointer;
+          padding: 14px 16px;
+          transition: 0.3s;
+          font-size: 17px;
+        }
+        
+        /* Change background color of buttons on hover */
+        .tab button:hover {
+          background-color:darkred;
+        }
+        
+        /* Create an active/current tablink class */
+        .tab button.active {
+          background-color:rgb(255, 211, 211);
+        }
+        
+        /* Style the tab content */
+        .tabcontent {
+          display: none;
+          padding: 6px 12px;
+          border: 1px solid #ccc;
+          border-top: none;
+        }
+        </style>
+        </head>
+        <body>
+                <style>
+                        * {color:black;}
+                        
+                        h2 {color:red; font-style:italic;}
+
+                        h1 {color:darkred}
+                        </style>
+            <h1>super læks kage</h1>
+            <p>du ved det makker</p>
+
+        <div class="tab">
+          <button class="tablinks" onclick="openCity(event, 'Profil')">Profil</button>
+          <button class="tablinks" onclick="openCity(event, 'Opskrift')">Opskrift</button>
+          <button class="tablinks" onclick="openCity(event, 'Fakta')">Fakta</button>
+        </div>
+        
+        
+<div id="Profil" class="tabcontent">
+        <h2>Profil</h2>
+            <p>ja det mig med en fucking vild kage</p>
+            <img src="file:///C:/Users/PC/Pictures/(a)eggrolls/pornstash/bestcake.png" 
+            alt="file:///C:/Users/PC/Pictures/(a)eggrolls/pornstash/bestcake.png" 
+            width="420" height="420">
+</div>
+
+<div id="Opskrift" class="tabcontent"><h2>Strawberry Cheesecake</h2>
+    <p>Et stykke kunst skabt af guderne selv</p> <img src="file:///C:/Users/PC/Desktop/fag%202019-20/Programmering/Strawberry-Cheesecake_8.jpg"
+    alt="file:///C:/Users/PC/Desktop/fag%202019-20/Programmering/Strawberry-Cheesecake_8.jpg"
+    width="450" height="550">
+
+    <ol>
+      <li>Cheesecake biscuit base</li>
+      <li>Cheesecake filling</li>
+      <li>4 ingredient strawberry sauce</li>
+    </ol>
+
+    
+    </div>
+
+    <div id="Fakta" class="tabcontent"><h2>Det en fucking fråderen kage</h2>
+        <p>med fucking drys på makker</p> <img src="file:///C:/Users/PC/Desktop/fag%202019-20/Programmering/download.jpg"
+    alt="file:///C:/Users/PC/Desktop/fag%202019-20/Programmering/download.jpg"
+width="420" height="450">
+</div>
+
+<h1>Startside</h1>
+<button 
+onclick="alert('ingen opskrift endnu bro')"
+>opskrift</button>
+
+        
+        <script>
+        function openCity(evt, cityName) {
+          var i, tabcontent, tablinks;
+          tabcontent = document.getElementsByClassName("tabcontent");
+          for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+          }
+          tablinks = document.getElementsByClassName("tablinks");
+          for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+          }
+          document.getElementById(cityName).style.display = "block";
+          evt.currentTarget.className += " active";
+        }
+        </script>
+
+</body>
+</html>
