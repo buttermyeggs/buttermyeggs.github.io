@@ -1,4 +1,4 @@
-# mcdhtx.github.io
+# buttermyeggs.github.io
 min hjemmeside
 
 - [se min kage ;)](https://buttermyeggs.github.io/migogminkage)
