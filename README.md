@@ -1,9 +1,10 @@
 # buttermyeggs.github.io
 min hjemmeside
 
-- [se min kage ;)](https://buttermyeggs.github.io/migogminkage)
+- [se min kage ;)](/migogminkage)
 - [buenos dias](http://www.tacospin.com/)
-- [balls](http://buttermyeggs.github.io/index)
+- [balls](/index)
+- [asteroids](/asteroids)
 
 dette er et afsnit
 med en mega sej tekst
