@@ -3,7 +3,6 @@ min hjemmeside
 
 - [se min kage ;)](/migogminkage)
 - [buenos dias](http://www.tacospin.com/)
-- [balls](/index)
 - [asteroids](/asteroids)
 
 dette er et afsnit
